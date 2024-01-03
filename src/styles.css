@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 /* ********** Custom Properties ********** */
+
+/* @import '~@angular/material/prebuilt-themes/indigo-pink.css'; */
 :root {
   --first-color: #005ed9;
   --first-alpha-color: rgba(0, 87, 217, 0.75);
@@ -729,3 +731,6 @@ progress::-moz-progress-bar {
     grid-column: span 3;
   }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
